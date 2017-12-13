@@ -8,6 +8,8 @@ body {
 	margin-bottom: 0;
 	border-radius: 0;
 	background-color: #36251E;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px
 }
 
 
@@ -16,6 +18,10 @@ body {
 footer {
 	background-color: #36251E;
 	padding: 25px;
+}
+
+.logo {
+	font-size: 45px;
 }
 
 .carousel-inner img {
