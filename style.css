@@ -4,29 +4,32 @@ body {
 	background-color: #FF3399;
 }
 
+h3 {
+	color: white;
+}
+
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
 	background-color: #36251E;
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
 }
-
-
-/* Add a gray background color and some padding to the footer */
 
 footer {
 	background-color: #36251E;
 	padding: 25px;
 }
 
+.logo {
+	font-size: 45px;
+}
+
 .carousel-inner img {
 	width: 100%;
-	/* Set width to 100% */
 	margin: auto;
 	min-height: 200px;
 }
-
-
-/* Hide the carousel text when the screen is less than 600 pixels wide */
 
 @media (max-width: 600px) {
 	.carousel-caption {
