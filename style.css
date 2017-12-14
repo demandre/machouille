@@ -2,17 +2,15 @@
 
 body {
 	background-color: white;
-	background: #d9a7c7;
-	/* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);
-	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #fffcdc, #d9a7c7);
-	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background: #d9a7c7;	
+	background: -webkit-linear-gradient(to top, #fffcdc, #d9a7c7);	
+	background: linear-gradient(to top, #fffcdc, #d9a7c7);*/
+	background-color: #FDFAF3;
 	font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
-	color: #FF3399;
+	color: #29276E;
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 }
@@ -20,13 +18,14 @@ h3 {
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
-	background-color: #36251E;
+	background-color: #FAE0E0;
+	border-color: #FAE0E0;
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 }
 
 footer {
-	background-color: #36251E;
+	background-color: #FAE0E0;
 	padding: 25px;
 }
 
