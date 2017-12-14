@@ -46,8 +46,44 @@ footer {
 	min-height: 200px;
 }
 
+.social img {
+	width: 100px;
+	height: 100px;
+	margin: 50px;
+	transition: all linear 0.3s;
+}
+
+.social img:hover {
+	transform: rotate(360deg);
+}
+
+.followUs {
+	color: #29276E;
+	font-family: 'Pacifico', cursive;
+	font-size: 50px;
+}
+
 @media (max-width: 600px) {
 	.carousel-caption {
 		display: none;
+	}
+	.social img {
+		width: 75px;
+		height: 75px;
+		margin: 10px;
+	}
+}
+
+@media (min-width: 600px) {
+	.followUs {
+		margin-top: -75px;
+	}
+	img.milieu {
+		margin-top: 100px;
+	}
+	img.bout {
+		margin-top: 200px;
+		margin-left: 20px;
+		margin-right: 20px;
 	}
 }
