@@ -29,10 +29,6 @@ footer {
 	padding: 25px;
 }
 
-.logo {
-	font-size: 45px;
-}
-
 .well {
 	background-color: transparent;
 	border-color: transparent;
@@ -72,6 +68,14 @@ footer {
 		height: 75px;
 		margin: 10px;
 	}
+	img.logo {
+		position: absolute;
+		z-index: 1;
+		margin-top: -10px;
+		margin-left: 10px;
+		height: 100px;
+		width: auto;
+	}
 }
 
 @media (min-width: 600px) {
@@ -85,5 +89,17 @@ footer {
 		margin-top: 200px;
 		margin-left: 20px;
 		margin-right: 20px;
+	}
+	img.logo {
+		position: absolute;
+		z-index: 1;
+		margin-top: -10px;
+		margin-left: 20px;
+		height: 150px;
+		width: auto;
+		transition: all linear 0.3s;
+	}
+	img.logo:hover {
+		transform: rotate(45deg);
 	}
 }
