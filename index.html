@@ -10,6 +10,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="js/map.js"></script>
 	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
@@ -41,10 +42,10 @@
 	</nav>
 	<div id="myCarousel" class="carousel slide" data-ride="carousel">
 		<!-- Indicators -->
-		<ol class="carousel-indicators">
-			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-			<li data-target="#myCarousel" data-slide-to="1"></li>
-		</ol>
+<ol class="carousel-indicators">
+	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	<li data-target="#myCarousel" data-slide-to="1"></li>
+</ol>
 
 		<!-- Wrapper for slides -->
 		<div class="carousel-inner" role="listbox">
@@ -82,7 +83,7 @@
 	<div class="container text-center">
 		<h3>Machouille dans le monde</h3><br>
 		<div class="row">
-			<div class="col-sm-4" >
+			<div class="col-sm-4">
 				<svg xmlns="http://www.w3.org/2000/svg" xmlns:amcharts="http://amcharts.com/ammap" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1200" height="800" viewBox="-100 0 1250 650">
 					<defs>
 						<style type="text/css">
@@ -380,7 +381,7 @@
 
 
 	<div class="container text-center">
-		<h3>What We Do</h3><br>
+		<h3>L’Histoire d’une Idée Géniale</h3><br>
 		<div class="row">
 			<div class="col-sm-8">
 				<div class="well">
@@ -388,16 +389,16 @@
 				</div>
 
 			</div>
-			<div class="col-sm-4">
+			<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="col-sm-4">
 				<img src="images/chewing-gum-bulle-femme-.jpg" class="img-responsive" style="width:100%" alt="fille a la bulle">
 			</div>
 
 		</div>
 	</div><br>
 	<div class="container text-center">
-		<h3>What We Do</h3><br>
+		<h3>Les Fameux Tri-Goûts</h3><br>
 		<div class="row">
-			<div class="col-sm-4">
+			<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="col-sm-4">
 				<img src="images/fete.PNG" class="img-responsive" style="width:100%" alt="fille a la bulle">
 			</div>
 			<div class="col-sm-8">
@@ -412,11 +413,11 @@
 
 		<div class="row">
 			<div class="col-sm-12 social">
-				<img class="bout" src="images/youtube.svg" alt="youtube">
-				<img class="milieu" src="images/snapchat.svg" alt="snapchat">
-				<img src="images/facebook.svg" alt="facebook">
-				<img class="milieu" src="images/instagram.svg" alt="instagram">
-				<img class="bout" src="images/twitter.svg" alt="twitter">
+				<a href="#"><img class="bout" src="images/youtube.svg" alt="youtube"></a>
+				<a href="#"><img class="milieu" src="images/snapchat.svg" alt="snapchat"></a>
+				<a href="#"><img src="images/facebook.svg" alt="facebook"></a>
+				<a href="#"><img class="milieu" src="images/instagram.svg" alt="instagram"></a>
+				<a href="#"><img class="bout" src="images/twitter.svg" alt="twitter"></a>
 
 			</div>
 			<div class="col-sm-12 followUs">
@@ -424,17 +425,16 @@
 			</div>
 		</div>
 	</div><br>
-		<div class="container text-center">
-		<div class="row">
-					</div>
-						<div class="col-sm-4">
-				<img src="images/amis.png" class="img-responsive" style="width:100%" alt="fille a la bulle">
-			</div>
-			<div class="col-sm-4">
-				<img src="images/love.png" class="img-responsive" style="width:100%" alt="fille a la bulle">
-			</div>
-						<div class="col-sm-4">
-				<img src="images/bisou.png" class="img-responsive" style="width:100%" alt="fille a la bulle">
+	<div class="container text-center">
+
+		<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="col-sm-4">
+			<img src="images/amis.png" class="img-responsive" style="width:100%" alt="fille a la bulle">
+		</div>
+		<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="col-sm-4">
+			<img src="images/love.png" class="img-responsive" style="width:100%" alt="fille a la bulle">
+		</div>
+		<div data-aos="fade-up" data-aos-anchor-placement="top-bottom" class="col-sm-4">
+			<img src="images/bisou.png" class="img-responsive" style="width:100%" alt="fille a la bulle">
 
 
 		</div>
@@ -443,13 +443,20 @@
 
 
 	<footer class="container-fluid text-center">
-	<img class="logo-footer" src="images/MachouilleV02.jpg" alt="Logo machouille">
+		<img class="logo-footer" src="images/MachouilleV02.jpg" alt="Logo machouille">
 		<h3>Vous souhaitez nous faire part de vos remarques ou questions ?</h3>
-		<p  class= "well">Notre service client France est à votre écoute</p>
-		<p class= "well">Par courier :    SC - 143, avenue de Versailles - 75016 Paris – France <br>
-		Par mel : service-client@machouille.fr</p>
-	</footer>
+		<p class="well">Notre service client France est à votre écoute</p>
+		<p class="well">Par courier : SC - 143, avenue de Versailles - 75016 Paris – France <br> Par mél : service-client@machouille.fr</p>
+		<p class="well">
+			<a href="#"><img class="login-footer" src="images/user.svg" alt="youtube"></a> Connexion ou Inscription</p>
 
+
+	</footer>
+	<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+
+	</script>
 </body>
 
 </html>

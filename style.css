@@ -1,4 +1,3 @@
-
 body {
 	background-color: white;
 	/*background: #d9a7c7;	
@@ -8,23 +7,27 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-h3 {
+.carousel-control {
+	opacity: 0;
+}
+
+.ca h3 {
 	color: #29276E;
 	font-family: 'Pacifico', cursive;
-	font-size: 30px;
+	font-size: 35px;
 }
 
 #info-box {
-    display: none;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    background-color: #ffffff;
-    border: 2px solid #BF0A30;
-    border-radius: 5px;
-    padding: 5px;
-    font-family: arial;
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 1;
+	background-color: #ffffff;
+	border: 2px solid #BF0A30;
+	border-radius: 5px;
+	padding: 5px;
+	font-family: arial;
 }
 
 .navbar {
@@ -35,7 +38,8 @@ h3 {
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 }
-li.navbar{
+
+li.navbar {
 	text-align: center;
 }
 
@@ -92,13 +96,16 @@ footer {
 		height: 100px;
 		width: auto;
 	}
-	.centrer>a{
+	.centrer>a {
 		text-align: right;
 	}
-		img.logo-footer{
+	img.logo-footer {
 		height: 100px;
 		width: auto;
-		
+	}
+	img.login-footer {
+		height: 30px;
+		width: auto;
 	}
 }
 
@@ -126,9 +133,12 @@ footer {
 	img.logo:hover {
 		transform: rotate(45deg);
 	}
-	img.logo-footer{
+	img.logo-footer {
 		height: 150px;
 		width: auto;
-		
+	}
+	img.login-footer {
+		height: 30px;
+		width: auto;
 	}
 }
