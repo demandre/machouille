@@ -12,33 +12,6 @@ h3 {
 	font-size: 35px;
 }
 
-<<<<<<< HEAD
-#infobox {
-    display: none;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1;
-    background-color: #ffffff;
-    border: 2px solid #BF0A30;
-    border-radius: 5px;
-    padding: 5px;
-    font-family: arial;
-=======
-#info-box {
-	display: none;
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 1;
-	background-color: #ffffff;
-	border: 2px solid #BF0A30;
-	border-radius: 5px;
-	padding: 5px;
-	font-family: arial;
->>>>>>> 5fdbc116666173eec0c7a41a06c51c8f9e7c0490
-}
-
 .navbar {
 	margin-bottom: 0;
 	border-radius: 0;
