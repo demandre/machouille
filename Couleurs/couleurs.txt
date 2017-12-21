@@ -1,0 +1,9 @@
+LOGO:
+bleu : #1873AC
+rose : #F59DB3
+jaune : #FBF7CD
+
+SITE :
+bleu foncé: #29276E
+rose : #FAE0E0
+jaune : #FDFAF3
