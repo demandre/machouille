@@ -36,7 +36,28 @@ footer {
 	box-shadow: none;
 	font-size: 20px;
 }
-
+.carousel-control.left{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+}
+.carousel-control.right{
+	background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,0) 100%);
+}
+.glyphicon-chevron-right{
+	background-image: url("images/boutton.png");
+	min-width:100px;
+	min-height:100px;
+}
+.glyphicon-chevron-right::before{
+	display:none;
+}
+.glyphicon-chevron-left{
+	background-image: url("images/boutton.png");
+	min-width:100px;
+	min-height:100px;
+}
+.glyphicon-chevron-left::before{
+	display:none;
+}
 .carousel-inner img {
 	width: 100%;
 	margin: auto;
@@ -108,6 +129,14 @@ p.separateur {
 		height: 30px;
 		width: auto;
 	}
+	.glyphicon-chevron-left{
+	background-image: none;
+	
+	}
+	.glyphicon-chevron-right{
+	background-image: none;
+	
+	}
 }
 
 @media (min-width: 600px) {
@@ -146,4 +175,5 @@ p.separateur {
 		height: 30px;
 		width: auto;
 	}
+	
 }
