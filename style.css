@@ -6,10 +6,6 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.carousel-control {
-	opacity: 0;
-}
-
 h3 {
 	color: #29276E;
 	font-family: 'Pacifico', cursive;
@@ -75,7 +71,22 @@ footer {
 	color: #29276E;
 	font-family: 'Pacifico', cursive;
 	font-size: 50px;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
+}
+
+.langues {
+	color: #29276E;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+}
+
+p.separateur {
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	width: 400px;
+	border-style: solid;
+	border-color: #29276E;
 }
 
 @media (max-width: 600px) {
@@ -103,6 +114,10 @@ footer {
 		width: auto;
 	}
 	img.login-footer {
+		height: 30px;
+		width: auto;
+	}
+	img.flag {
 		height: 30px;
 		width: auto;
 	}
@@ -137,6 +152,10 @@ footer {
 		width: auto;
 	}
 	img.login-footer {
+		height: 30px;
+		width: auto;
+	}
+	img.flag {
 		height: 30px;
 		width: auto;
 	}
